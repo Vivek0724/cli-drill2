@@ -1,0 +1,16 @@
+ mkdir hello hello/five hello/five/six hello/five/six/seven hello/one hello/one/two hello/one/two/three hello/one/two/three/four  
+touch hello/five/six/c.txt hello/five/six/seven/error.log hello/one/a.txt hello/one/b.txt hello/one/two/d.txt hello/one/two/three/e.txt hello/one/two/three/four/access.log
+  cd hello
+  tree
+  find -name" *log" -delete
+  find -name "*log" -delete
+  cat>> a.text
+  nano a.text
+  -r ~/hello/five
+  rm -r five
+  mv one uno
+  cd uno
+   mv a.text two
+  cd ..
+  mv a.text two
+
