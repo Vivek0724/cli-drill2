@@ -1,0 +1,41 @@
+ wget https://raw.githubusercontent.com/bobdeng/owlreader/master/ERead/assets/books/Harry%20Potter%20and%20the%20Goblet%20of%20Fire.txt
+ 
+  head -10 Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt 
+  
+  tail -10 Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt 
+  
+  grep -o -i Harry Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt \wc -l
+  
+  grep -o -i Harry Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt | wc -l
+  
+  grep -o -i Hermione Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt | wc -l
+  
+  grep -o -i Dumbledore Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt | wc-l
+  
+  grep -o -i Dumbledore Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt | wc -l
+  
+  awk 'NR>=100 && NR<=200' Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt 
+  
+  tr A-Z a-z <Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt | tr -cs 'a-zA-Z0-9' '\n' | short uniq |wc -l
+  
+  tr A-Z a-z <Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt | tr -cs 'a-zA-Z0-9' '\n' | short uniq |wc -l
+  
+  sudo apt install htop
+  
+  sudo apt install vim
+  
+  sudo apt install nginx
+  
+  sudo apt-get remove nginx 
+  
+  ps aux | sort -nrk 3,3 | head -n 3
+  
+  ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -3
+  
+  python3 -m http.server 90
+  
+  ip addr
+  
+  ping google.com
+  
+  ping 8.8.8.8 
