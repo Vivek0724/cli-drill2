@@ -16,9 +16,7 @@
   
   awk 'NR>=100 && NR<=200' Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt 
   
-  tr A-Z a-z <Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt | tr -cs 'a-zA-Z0-9' '\n' | short uniq |wc -l
-  
-  tr A-Z a-z <Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt | tr -cs 'a-zA-Z0-9' '\n' | short uniq |wc -l
+  tr A-Z a-z <Harry\ Potter\ and\ the\ Goblet\ of\ Fire.txt | tr -cs 'a-zA-Z0-9' '\n' | sort uniq |wc -l
   
   sudo apt install htop
   
